@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% for post in posts %}
+<a href="/content/{{ content.title }}">
+   <img src="/static/images/{{ content.image }}"/>
+   <h1>{{ content.title }}</h1>
+   <p>{{ content.date }}</p>
+</a>
+{% endfor %}
+{% endblock content %}

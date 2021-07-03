@@ -1,0 +1,53 @@
+html,
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    opacity: .7;
+    height: auto;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-color: #f6fef6;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: lighten;
+    opacity: 80%;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: black;
+}
+
+.header {
+    text-decoration-style: wavy;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    min-height: 30%;
+    font-size: 20;
+}
+
+h1 {
+    color: black;
+    min-height: 30%;
+    font-size: 30;
+    margin-top: 2.5%;
+}
