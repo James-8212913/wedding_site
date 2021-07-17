@@ -1,8 +1,14 @@
-{% extends "layout.html" %}
+{% extends "index.html" %}
 
 {% block content %}
-<div class="content">
-    <h2>On The Day</h2>
-    <p>
+<div class="container">
+    <div class="page-header">
+        <h1>Details</h1>
+    </div>
+    <p>Who: Anél and James</p>
+    <p>When: 07 Oct 2021 from 16:45 until midnight</p>
+    <p><a href="https://www.google.com/maps/place/Athol+Hall/@-33.8475921,151.2431269,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ac3029f13ab5:0x85e539ef2ca79bb4!8m2!3d-33.8475921!4d151.2453209" target="_blank">Where: Athol Hall - Near Taronga Zoo</a></p>
+    <p>Dress: Loung Suit or equivalent</p>
+    <img src="{{ url_for('static', filename='venue1.jpg') }}" align = "centre" alt="">
 </div>
-{% endblock content %}
+{% endblock %}

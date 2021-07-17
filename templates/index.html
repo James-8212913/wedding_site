@@ -16,18 +16,29 @@
             <a class="navbar-brand" href="/">07 Oct 2021</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
+            <ul class="navbar-nav">
+              <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="/about">About</a>
+              <a class="nav-item nav-link" href="/other_stuff">Other Stuff</a>
             </ul>
         </div>
-    </div>
+      </div>
 </div>
+
 {% endblock %}
 
 {% block content %}
 <div class="container">
     <div class="page-header">
-        <h1>Hello</h1>
+        <h2>Anél and James</h2>
+    </div>
+    <img src="{{ url_for('static', filename='thumbnail_16-15-15 2.jpg') }}" align = "centre" />
+    <div class="content">
+      <p>The story of Anél and James has been one of love and adventure. After meeting over a coffee late in 2017 they've not spent much time apart. The time together has been characterised by good food, good wine and adventures of all shapes and sizes.</p>
+      <p>There have been plenty of multi-day hikes where James was lucky enough to pass the first 'hiking' test. James has also lost a few bets along the way - drop bears were proven to be a real thing.</p>
+      <p>Anél has taken James to South Africa where Charl showed James a thing or two about doing a bria properly and Anél was lucky enough to share a chardonay with Karen in Queensland.</p>
+      <p>In a relatively short period of time there have been plenty of life events, some bigger than others. Anél's first game of AFL was at the SCG where the swans managed a rare win over a beer on a cold winters evening and James has been lucky enough to judge the annual Poike competition.</p>
+      <p>The marriage of Anél and James will no doubt be as much fun and as adventurous as the first few years have been. Fingers are crossed for eveyone being able to travel again in the near future where Anél and James will no doubt be seeing friends and family from far and wide. </p>
     </div>
 </div>
 {% endblock %}
